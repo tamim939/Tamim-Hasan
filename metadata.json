@@ -1,0 +1,7 @@
+{
+  "name": "Lumina AI Mobile",
+  "description": "Premium mobile AI studio for video cleaning and image enhancement.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
