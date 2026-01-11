@@ -1,15 +1,15 @@
 
 export enum AppFeature {
-  VIDEO_NOISE_REMOVAL = 'VIDEO_NOISE_REMOVAL',
-  IMAGE_ENHANCEMENT = 'IMAGE_ENHANCEMENT',
-  DARK_RESTORATION = 'DARK_RESTORATION',
-  IMAGE_GENERATION = 'IMAGE_GENERATION'
+  VIDEO_CLEANER = 'VIDEO_CLEANER',
+  IMAGE_4K = 'IMAGE_4K',
+  DARK_RESTORE = 'DARK_RESTORE',
+  AI_GENERATE = 'AI_GENERATE'
 }
 
 export interface GenerationResult {
   imageUrl?: string;
   videoUrl?: string;
   originalUrl?: string;
+  originalType?: 'image' | 'video';
   timestamp: number;
-  prompt?: string;
 }
